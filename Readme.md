@@ -4,4 +4,4 @@
 
 **PROJECT 1 resposive portfolio design**
 
-[click](./portfolio/profile/README.md)
+[click](./portfolio/profile/src/)
