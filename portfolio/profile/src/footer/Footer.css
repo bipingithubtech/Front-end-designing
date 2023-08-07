@@ -1,0 +1,46 @@
+.footer{
+    background: rgb(20, 20, 20);
+    width: 100%;
+    padding: 6rem 0;
+}
+.footer-container{
+    display: grid;
+     grid-template-columns: repeat(2,1fr);
+     color: rgb(255, 255, 254);
+}
+.left{
+
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+}
+.phone h4{
+    display: flex;
+    margin-bottom: 1rem;
+    
+}
+.email h4{
+    display: flex;
+}
+.location p{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    display: flex;
+    
+}
+.right p{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    display: flex;
+}
+.right h4{
+    justify-content: start;
+    font-size: 2rem;
+}
+
+
+@media screen and (max-width:640px) {
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
+}

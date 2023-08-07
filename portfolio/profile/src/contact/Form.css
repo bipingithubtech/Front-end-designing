@@ -1,0 +1,42 @@
+.form-conatiner{
+    background: #080808;
+}
+label{
+    color: #fff;
+    margin-bottom: .5rem;
+    text-transform: capitalize;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+    margin: auto;
+    max-width: 600px;
+}
+form input ,form textarea{
+    margin-bottom: 1rem;
+    padding:10px 18px;
+    font-size:1.2rem ;
+    background: #313131;
+    color: #fff;
+}
+.btn-form{
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: #c4a80b;
+    color: rgb(20, 20, 20);
+    border: 1px solid #fff;
+    font-weight: 600;
+    cursor: pointer;
+  
+  }
+  .btn-form:hover{
+    background: transparent;
+    color: hsl(81, 96%, 46%);
+    border-color: hsl(81,96%,46%);
+  }
+  .table{
+    background: #b6deee;
+    color: #080808;
+  }

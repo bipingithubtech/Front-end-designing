@@ -1,0 +1,56 @@
+.resumepro{
+    background: #080808;
+    
+}
+ .heads h1{
+    color: rgb(186, 195, 245);
+    text-align: center;
+    font-weight: 300;
+    font-size: 5rem;
+}
+#data{
+    color: #970606;
+}
+.list li {
+    display:flex ;
+}
+.resume-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color: rgb(255, 255, 254);
+    margin-left: 1.5rem;
+}
+.skill{
+    text-transform: capitalize;
+    margin-top: 5%;
+    
+}
+.skill ul li{
+    font-size: 1.3rem;
+    padding: .5rem;
+}
+.name h4{
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 3.5rem;
+    color: rgb(170, 231, 3);
+}
+.skill h2{
+    color: rgb(253, 153, 3);
+}
+.education h2{
+    color: rgb(253, 153, 3);
+}
+.education h4,ul{
+    text-transform: capitalize;
+}
+.information-right{
+    margin-top: 12%;
+    text-transform: capitalize;
+}
+.experience h2{
+    color:  rgb(253, 153, 3);
+}
+.experience h4{
+    margin-top: 3%;
+}

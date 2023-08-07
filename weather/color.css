@@ -1,0 +1,106 @@
+.card{
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+#inputbox{
+    margin-left: 20px;
+}
+
+.bold{
+    font-weight: bolder  ;
+    font-size: 20px;
+;
+    
+
+}
+p{
+    display: inline;
+
+}
+.btn{
+    background-color: #aabd9d;
+    font-size: 5px bold;
+}
+#countryName{
+    position: relative;
+    top: 20px;
+    right: 40px;
+
+}
+#stateName{
+    position: relative;
+    top: 20px;
+    right: 40px;
+}
+#cityName{
+    position: relative;
+    top: 20px;
+    right: 40px;
+}
+#humidityName{
+    position: relative;
+    top: 20px;
+    right: 40px;
+}
+#windName{
+    position: relative;
+    top: 20px;
+    right: 40px;
+}
+#tempName{
+    position: relative;
+    top: 20px;
+    right: 40px;
+}
+#image{
+    position: relative;
+    top: 20px;
+    right: 70px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-repeat: no-repeat;
+    background-image: url("https://images.unsplash.com/photo-1508697014387-db70aad34f4d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center top;
+}
+.container{
+    border: 0px solid ;
+    width: 800px;
+    
+    height: 500px;
+
+ }
+
+ .sectiondata{
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    border: 2px black;
+ }
+ .weatherdetails{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    justify-content: space-between
+ }
+ .container{
+    display: grid;
+   justify-content: center;
+     text-align: center;
+     border: 2px bold;
+     height: 60vh;
+     width:60%;
+     background:transparent;
+     margin-top: 10%;
+     margin-left: 20%;
+     
+     
+
+  }
+
